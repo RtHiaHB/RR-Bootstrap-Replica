@@ -1,11 +1,14 @@
-import './App.css';
-import TopBar from './Components/TopBar';
+import './App.css'
+import TopBar from './Components/TopBar'
+import Background from './Components/Background'
+import StoreListing from './Components/StoreListing'
 
 function App() {
   return (
     <div>
       <TopBar />
-      <h1>Hello World</h1>
+      <Background />
+      <StoreListing />
     </div>
   );
 }
